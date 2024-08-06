@@ -42,10 +42,3 @@ const fetchData = async (e)=>{
     console.log(data);
 
 }
-
-    // Optionally, you can return the data or use it in some wa
-
-// Example HTML element
-// <input type="text" id="name" value="Sample Name">
-
-// Call the getData function
