@@ -11,7 +11,7 @@ const courses = [
 ];
 
 app.get('/', (req,res) => {
-     res.send("Hello World");
+     res.send("Hello Aju Chechinde");
 });  
 
 app.get('/api/courses', (req,res) => {

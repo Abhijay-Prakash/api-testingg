@@ -8,7 +8,7 @@ const handleSubmit = async (e) => {
 
     try {
        
-        const response = await fetch('http://localhost:3000/api/courses', {
+        const response = await fetch('https://api-testing-xbq8.onrender.com/api/courses', {
             method: 'POST', // Specify the request method
             headers: {
                 'Content-Type': 'application/json', // Set the request headers
@@ -37,7 +37,7 @@ const handleSubmit = async (e) => {
 
 const fetchData = async (e)=>{
     e.preventDefault();
-    const response = await fetch('http://localhost:3000/api/courses/5');
+    const response = await fetch('https://api-testing-xbq8.onrender.com/api/courses/5');
     const data = await response.json();
     console.log(data);
 
